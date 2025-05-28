@@ -1,0 +1,6 @@
+{
+  "name": "SVG Taxi Fare Calculator",
+  "description": "A modern taxi and bus fare calculator app for St. Vincent & the Grenadines, built with React, TypeScript, and Tailwind CSS. Features include category-based fare lookup, passenger adjustments, after-hours pricing, and a sleek light/dark theme.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

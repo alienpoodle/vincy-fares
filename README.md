@@ -1,4 +1,14 @@
-# vincy-fares
-A modern taxi and bus fare calculator app for St. Vincent & the Grenadines.
-Built with React, TypeScript, and Tailwind CSS. 
-Features include category-based fare lookup, passenger adjustments, after-hours pricing, and a sleek light/dark theme.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

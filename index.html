@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Taxi Fare Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                light: '#3B82F6', // blue-500
+                DEFAULT: '#2563EB', // blue-600
+                dark: '#1D4ED8',  // blue-700
+              },
+              secondary: {
+                light: '#ECFDF5', // green-50
+                DEFAULT: '#10B981', // green-500
+                dark: '#047857',  // green-700
+              },
+              background: {
+                light: '#F9FAFB', // gray-50
+                dark: '#1F2937',  // gray-800
+              },
+              card: {
+                light: '#FFFFFF', // white
+                dark: '#374151',  // gray-700
+              },
+              text: {
+                light: '#111827', // gray-900
+                dark: '#F3F4F6',  // gray-100
+              },
+              muted: {
+                light: '#6B7280', // gray-500
+                dark: '#9CA3AF',  // gray-400
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background-light dark:bg-background-dark transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
